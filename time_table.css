@@ -1,0 +1,115 @@
+body {
+    background-color: #f4f1ea;
+    font-family: 'Sarabun', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #2d3436;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #0984e3;
+    color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #dfe6e9;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.day-header {
+    background-color: #74b9ff;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+}
+
+.break {
+    background-color: #dfe6e9;
+    color: #636e72;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.subject {
+    background-color: #e3f2fd;
+    color: #0984e3;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.free-time {
+    color: #b2bec3;
+    font-style: italic;
+}
+
+.saturday {
+    background-color: #a29bfe;
+}
+
+.sunday {
+    background-color: #ff7675;
+}
+
+tr:hover td:not(.day-header):not(.break) {
+    background-color: #f1f2f6;
+    cursor: pointer;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #636e72;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #2d3436;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #000;
+}

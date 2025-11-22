@@ -1,0 +1,27 @@
+body {
+    background-color: #fffd9e;
+}
+
+h1 {
+    color: rgb(130, 45, 205);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+#l1 {
+    color: indianred;
+}
+
+.l2 {
+    text-decoration: underline;
+    color: red;
+}

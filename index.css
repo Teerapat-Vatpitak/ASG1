@@ -49,10 +49,12 @@ header p {
 }
 
 .menu-item {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    width: 140px;
-    padding: 20px;
+    width: 150px;
+    height: 80px;
     text-decoration: none;
     color: #2d3436;
     border-radius: 15px;
@@ -66,11 +68,6 @@ header p {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     border-color: #d63031;
     color: #d63031;
-}
-
-.icon {
-    font-size: 3em;
-    margin-bottom: 10px;
 }
 
 .label {

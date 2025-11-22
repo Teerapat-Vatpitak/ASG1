@@ -1,0 +1,123 @@
+body {
+    background-color: #f4f1ea;
+    font-family: 'Sarabun', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    color: #d63031;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #636e72;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.main-menu {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f1f2f6;
+    border-radius: 15px;
+}
+
+.main-menu h2 {
+    font-size: 1.2em;
+    color: #2d3436;
+    margin-top: 0;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: block;
+    background-color: white;
+    width: 140px;
+    padding: 20px;
+    text-decoration: none;
+    color: #2d3436;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: #d63031;
+    color: #d63031;
+}
+
+.icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.profile-section {
+    margin-top: 40px;
+}
+
+.profile-table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.profile-table th,
+.profile-table td {
+    border: 1px solid #dfe6e9;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.table-header {
+    background-color: #2d3436;
+    color: white;
+    text-align: center !important;
+    border-radius: 10px 10px 0 0;
+}
+
+.topic {
+    background-color: #dfe6e9;
+    font-weight: bold;
+    width: 30%;
+    text-align: right !important;
+}
+
+.contact {
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #b2bec3;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
